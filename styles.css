@@ -1,2 +1,18 @@
+/* The parent container */
+.holder {
+  display: flex;
+  /* Centers horizontally */
+  justify-content: center;
+  /* Centers vertically */
+  align-items: center;
+  /* Required to define the 'center' relative to the whole screen */
+  width: 100vw;
+  height: 100vh;
+}
 
-/* Your CSS Code here. */
+/* The element being centered */
+.item-1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
